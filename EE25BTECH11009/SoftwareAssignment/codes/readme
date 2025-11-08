@@ -1,0 +1,3 @@
+for compiling 
+gcc -o compress main.c matrixOps.c svd.c imageTake.c -lm
+./compress <input.ext> <outputName>
